@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany} from "typeorm"
 import { ProjectUser } from "../project-users/project-user.entity"
 
-enum Role {
+export enum Role {
   Employee = 'Employee',
   Admin = 'Admin',
   ProjectManager = 'ProjectManager',
